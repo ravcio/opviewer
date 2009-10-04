@@ -9,6 +9,9 @@ namespace OperaPictureViewer
         DateTime startTime;
         Boolean bStarted = false;
 
+        /// <summary>
+        /// Start time measurement
+        /// </summary>
         public void Start()
         {
             startTime = DateTime.Now;
@@ -27,10 +30,25 @@ namespace OperaPictureViewer
             return duration.TotalMilliseconds;
         }
 
+        /// <summary>
+        /// Stop after multiple repetitions
+        /// </summary>
+        /// <param name="repetitions"></param>
+        /// <returns></returns>
         public double Stop(int repetitions)
         {
             return Stop() / repetitions;
         }
 
+
+        /// <summary>
+        /// This is method for issue 21
+        /// </summary>
+        /// <returns></returns>
+        private int Issue21()
+        {
+
+
+        }
     }
 }
