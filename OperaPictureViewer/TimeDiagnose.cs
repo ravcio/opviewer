@@ -4,6 +4,9 @@ using System.Text;
 
 namespace OperaPictureViewer
 {
+    /// <summary>
+    /// This class is used to time fast operations.
+    /// </summary>
     class TimeDiagnose
     {
         DateTime startTime;
