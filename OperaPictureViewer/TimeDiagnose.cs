@@ -47,8 +47,8 @@ namespace OperaPictureViewer
         /// <returns></returns>
         private int Issue21()
         {
-
-
+            int i = 23;
+            return i;
         }
     }
 }
