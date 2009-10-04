@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
 using System.Diagnostics;
+using System.IO;
 
 namespace OperaPictureViewer
 {
@@ -46,21 +47,6 @@ namespace OperaPictureViewer
             Properties.Settings.Default.Save();
             
             Application.Exit();
-        }
-
-        void fillBitmap1(Bitmap bitmap)
-        {
-            int w = bitmap.Width;
-            int h = bitmap.Height;
-
-            // option 1
-            for (int x = 0; x < w; x++)
-            {
-                for (int y = 0; y < h; y++)
-                {
-                    bitmap.SetPixel(x, y, Color.Red);
-                }
-            }
         }
 
         void fillBitmap2(Bitmap bitmap)
