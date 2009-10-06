@@ -53,5 +53,11 @@ namespace OperaPictureViewer
             int i = 23;
             return i;
         }
+
+        private void issue22()
+        {
+
+        }
+
     }
 }
