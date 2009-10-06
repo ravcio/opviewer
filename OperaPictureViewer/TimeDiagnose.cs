@@ -44,6 +44,11 @@ namespace OperaPictureViewer
         }
 
 
+        public void issue19()
+        {
+
+        }
+
         /// <summary>
         /// This is method for issue 21
         /// </summary>
